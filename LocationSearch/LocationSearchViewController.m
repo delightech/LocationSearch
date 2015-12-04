@@ -94,8 +94,6 @@
     [_mapView setRegion:region];
     [_mapView addAnnotation:point]; // 地図にアノテーションを追加
     
-    //NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
-    //[dic setObject:@"title" forKey:@"〒106-0032, 東京都港区六本木6-3-1六本木ヒルズクロスポイント5F"];
     NSDictionary *addressDict = @{
                                   (NSString *) kABPersonAddressCityKey : @"東京都港区6-3-1六本木ヒルズクロスポイント5F",
                                   (NSString *) kABPersonAddressZIPKey : @"〒106-0032",
